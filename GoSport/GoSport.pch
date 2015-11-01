@@ -1,0 +1,82 @@
+//
+//  GoSport.pch
+//  GoSport
+//
+//  Created by imac on 15/9/26.
+//  Copyright (c) 2015年 imac. All rights reserved.
+//
+
+#ifndef GoSport_GoSport_pch
+#define GoSport_GoSport_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UIViewExt.h"
+#import "DataService.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "BaseModel.h"
+#import "AFNetworking.h"
+#import "UIView+ViewController.h"
+#import "NSString+URLEncoding.h"
+#import "UMSocial.h"
+
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+//主页中间类型
+#define khome_top @"home_top"
+#define kSwim @"swim"
+
+//热门场馆
+#define kHome @"home"
+#define kDetail @"detail"
+
+//城市
+#define kCity @"left_city"
+#define kLatestCity @"latestCity"
+
+//详情地区
+#define kArea @"area"
+//中间数据
+#define kCateNames @"cateNames"
+
+#define kGreenDetail @"GreenDetail"
+
+#define kGreenSportSupport @"GreenSportSupport"
+
+//同城约战
+#define kSameCityTopImage @"SameCityTopImage"
+#define kChanllengeDaRen @"challengeDaren"
+#define kRecomment @"recomment"
+
+#define kRecentFight @"recentFight"
+#define kPrizaFight @"prizeFight"
+
+//Base
+#define BaseUrl @"http://service.dongqil.com/iSports/api"
+
+//第三个界面web
+#define kActivity @"http://events.dongqil.com.cn/"
+
+//开机
+#define kFirstOpen @"firstOpen"
+
+//location
+#define kLocation @"location"
+#define kLat @"lat"
+#define kLon @"lon"
+#define kcurrentCity @"currentCity"
+
+
+//login
+#define kaccessToken @"accessToken"
+#define kUid @"uid"
+
+
+#endif
+
+
+
+
+
